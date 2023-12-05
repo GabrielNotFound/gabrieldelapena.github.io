@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) {
+    #web-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .logo {
+        color: white;
+        font-size: 2rem;
+    }
+}
