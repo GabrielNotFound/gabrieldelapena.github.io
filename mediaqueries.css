@@ -1,14 +1,15 @@
-@media screen and (max-width: 1000px) {
-    #web-nav {
-        display: none;
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
     }
 
-    #hamburger-nav {
-        display: flex;
+    .about-containers {
+        flex-wrap: wrap;
     }
 
-    .logo {
-        color: white;
-        font-size: 2rem;
+    #contact,
+    #projects {
+        height: fit-content;
     }
 }

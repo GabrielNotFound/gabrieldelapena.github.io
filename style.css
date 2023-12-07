@@ -40,8 +40,9 @@ nav {
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
-    background-color: #101010;
+    height: 8vh;
+    background-color: black;
+    opacity: 95%;
 }
 
 .nav-links {
@@ -385,6 +386,7 @@ article .icon {
     position: relative;
     background-color: white;
     margin: 0;
+    padding: 5rem;
 }
 
 .color-container {
@@ -402,4 +404,41 @@ article .icon {
 .project-title {
     margin: 1rem;
     color: black;
+}
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+    height: 2rem;
+}
+
+.email-icon {
+    height: 2.5rem;
 }
